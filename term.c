@@ -1,8 +1,3 @@
-/*
-	Name: Dhairya Chaudhary
-	Roll No.: 2019035
-*/
-
 #include <sys/wait.h>
 #include <errno.h>
 #include <sys/types.h>
