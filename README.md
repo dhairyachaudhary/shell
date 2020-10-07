@@ -36,6 +36,7 @@ In this case, again, the directory is not changed and an appropriate error messa
 ASSUMPTIONS
 - If no directory is mentioned with, directory is switched to the home directory.
 
+
 **history**
 
 OPTIONS
@@ -55,6 +56,7 @@ ASSUMPTIONS
 - History is updated when the user enters a command.
 - History file is implemented as a text file history.txt (present in folder).
 
+
 **echo**
 
 OPTIONS
@@ -70,6 +72,7 @@ An appropriate error message is printed to stderr.
 
 ASSUMPTIONS
 - If no argument follows echo, a newline is printed
+
 
 **pwd**
 
@@ -123,6 +126,7 @@ ASSUMPTIONS
 - ls can handle multiple directories as input
 - ls can handle multiple flags 
 
+
 **cat**
 
 OPTIONS
@@ -145,6 +149,7 @@ ASSUMPTIONS
 - cat can handle multiple flags 
 - File data is presented as it is, no new lines, spaces etc. modify the actual file content.
 
+
 **date**
 
 OPTIONS
@@ -160,6 +165,7 @@ An appropriate error message is printed to stderr and further operations aren’
 
 ASSUMPTIONS
 N/A
+
 
 **rm**
 
@@ -181,6 +187,7 @@ An appropriate error message is printed to stderr and further operations aren’
 ASSUMPTIONS
 - rm can handle multiple directories as input
 - rm can handle multiple flags 
+
 
 **mkdir**
 OPTIONS
