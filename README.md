@@ -37,6 +37,7 @@ ASSUMPTIONS
 - If no directory is mentioned with, directory is switched to the home directory.
 
 
+
 **history**
 
 OPTIONS
@@ -72,6 +73,7 @@ An appropriate error message is printed to stderr.
 
 ASSUMPTIONS
 - If no argument follows echo, a newline is printed
+
 
 
 **pwd**
@@ -127,6 +129,7 @@ ASSUMPTIONS
 - ls can handle multiple flags 
 
 
+
 **cat**
 
 OPTIONS
@@ -150,6 +153,7 @@ ASSUMPTIONS
 - File data is presented as it is, no new lines, spaces etc. modify the actual file content.
 
 
+
 **date**
 
 OPTIONS
@@ -165,6 +169,7 @@ An appropriate error message is printed to stderr and further operations aren’
 
 ASSUMPTIONS
 N/A
+
 
 
 **rm**
@@ -189,7 +194,9 @@ ASSUMPTIONS
 - rm can handle multiple flags 
 
 
+
 **mkdir**
+
 OPTIONS
 -  “-v”
 Prints a message for each directory created.
