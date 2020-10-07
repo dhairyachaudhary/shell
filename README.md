@@ -1,4 +1,4 @@
-# shell
+# Shell
 Linux shell made using Linux system calls from C programs.
 
 ## THE SYSTEM
@@ -19,7 +19,7 @@ This array is sent to the execute function that can call all the commands I have
 ## SHELL COMMANDS
 ### Internal-
 
-**cd**
+#### cd
 
 OPTIONS
 -  “-L”
