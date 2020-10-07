@@ -19,7 +19,7 @@ This array is sent to the execute function that can call all the commands I have
 ## SHELL COMMANDS
 ### Internal-
 
-#### cd
+**1. cd**
 
 OPTIONS
 -  “-L”
@@ -38,7 +38,7 @@ ASSUMPTIONS
 
 
 
-**history**
+**2. history**
 
 OPTIONS
 -  “-c”
@@ -58,7 +58,7 @@ ASSUMPTIONS
 - History file is implemented as a text file history.txt (present in folder).
 
 
-**echo**
+**3. echo**
 
 OPTIONS
 -  “-n”
@@ -76,7 +76,7 @@ ASSUMPTIONS
 
 
 
-**pwd**
+**4. pwd**
 
 OPTIONS
 -  “-P”
@@ -92,7 +92,7 @@ An appropriate error message is printed to stderr.
 ASSUMPTIONS
 - The general configuration (for -L and -P are followed)
 
-**exit**
+**5. exit**
 
 OPTIONS
 N/A
@@ -107,7 +107,7 @@ ASSUMPTIONS
 
 ### External-
 
-**ls**
+**6. ls**
 
 OPTIONS
 -  “-1”
@@ -130,7 +130,7 @@ ASSUMPTIONS
 
 
 
-**cat**
+**7. cat**
 
 OPTIONS
 -  “-n”
@@ -154,7 +154,7 @@ ASSUMPTIONS
 
 
 
-**date**
+**8. date**
 
 OPTIONS
 -  “-u”/”--utc”/”--universal”
@@ -172,7 +172,7 @@ N/A
 
 
 
-**rm**
+**9. rm**
 
 OPTIONS
 -  “-i”
@@ -195,7 +195,7 @@ ASSUMPTIONS
 
 
 
-**mkdir**
+**10. mkdir**
 
 OPTIONS
 -  “-v”
