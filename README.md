@@ -13,6 +13,7 @@ This loop is exited once the exit function is called (the loop has a variable ca
 This array is sent to the execute function that can call all the commands I have implemented. This function always returns a value!=0 unless we call exit. Memory is freed using free(). There is one helper function present in the code.
 
 > Internal commands implemented: cd, echo, history, pwd, exit
+
 > External commands implemented:  ls, cat, date, rm, mkdir (these are handled using fork(), execl() and wait(). We have specified the path to implement these.)
 
 ## SHELL COMMANDS
